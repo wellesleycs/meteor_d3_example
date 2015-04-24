@@ -1,1 +1,17 @@
 /* CSS declarations go here */
+
+svg {
+    width: 400px;
+    height: 200px;
+    border: 1px solid gray;
+}
+
+#clickArea circle {
+   fill: red;
+}
+
+#chartArea circle {
+   fill: blue;
+}
+
+

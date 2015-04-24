@@ -1,6 +1,21 @@
 <head>
-  <title>And example of using D3.js in Meteor</title>
+  <title>An example of using D3.js in Meteor</title>
 </head>
+
 <body>
   <h1>D3 example on a Meteor App</h1>
+    
+  {{> clickSVG }}
+  {{> chartSVG }}
 </body>
+
+<template name="clickSVG">
+  <svg id="clickArea">   
+    <g><text x="20" y="40">Click anywhere in the rectangle</text></g>
+  </svg>
+</template>
+
+<template name="chartSVG">
+  <svg id="chartArea">      
+  </svg>
+</template>
