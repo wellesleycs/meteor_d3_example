@@ -39,5 +39,10 @@ if (Meteor.isClient){
     }
     
   })
+  
+  Template.total.helpers({
+    totalDots: function(){return 2 * Session.get("points").length;}
+  }
+ )
     
 }

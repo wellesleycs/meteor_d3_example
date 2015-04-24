@@ -7,6 +7,7 @@
     
   {{> clickSVG }}
   {{> chartSVG }}
+  {{> total }}
 </body>
 
 <template name="clickSVG">
@@ -18,4 +19,10 @@
 <template name="chartSVG">
   <svg id="chartArea">      
   </svg>
+</template>
+
+<template name="total">
+  <div id="totalDiv">
+    <h3>Total dots: {{totalDots}}</h3>
+  </div>
 </template>
